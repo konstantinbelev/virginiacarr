@@ -124,9 +124,6 @@ i{
         border-top: 3px solid white;
         width: 100px;
     }
-    .btn{
-            margin-top: 10px;
-        }
     p{
         font-size: 1.6em;
         font-weight: 300;
@@ -170,49 +167,51 @@ footer{
 }
 
 //Butoons
-.btn-default {
+.btn-default{
     background: white;
     @include transition;
 }
 
-.btn {
+.btn{
     border: none;
     border-radius: 300px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.btn-xl {
+.btn-xl{
     padding: 15px 30px;
 }
 
 //Extras
 //Color Customization
-::-moz-selection {
+::-moz-selection{
     color: white;
     text-shadow: none;
     background: $gray-darker;
 }
 
-::selection {
+::selection{
     color: white;
     text-shadow: none;
     background: $gray-darker;
 }
 
-img::selection {
+img::selection{
     color: white;
     background: transparent;
 }
 
-img::-moz-selection {
+img::-moz-selection{
     color: white;
     background: transparent;
 }
 
-body {
+body{
     webkit-tap-highlight-color: $gray-darker;
 }
+
+//Media Queries
 
 @media (max-width: 767px) {
     #services{
